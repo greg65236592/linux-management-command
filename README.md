@@ -17,5 +17,7 @@ cat ~/Desktop/lsof.log | awk '{ print $2 " " $1; }' | sort -rn | uniq -c | sort 
 
 vim ~/Desktop/lsof.log
 
+### process monitor
+top
 
 
