@@ -10,5 +10,10 @@ du -sh * | sort -h
 ### List file details
 ls -l
 
+### Too many open files exam
+lsof > ~/Desktop/lsof.log
+cat ~/Desktop/lsof.log | awk '{ print $2 " " $1; }' | sort -rn | uniq -c | sort -rn | head -20
+vim ~/Desktop/lsof.log
+
 
 
