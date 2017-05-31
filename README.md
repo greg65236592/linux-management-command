@@ -1,13 +1,13 @@
 # linux-management-command
 frequent used linux commands
 
-List disk space
+### List disk space
 df -h
 
-List directory space
+### List directory space
 du -sh *
 
-List file details
+### List file details
 ls -l
 
 
